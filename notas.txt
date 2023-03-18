@@ -1,0 +1,39 @@
+alumnos
+materias
+profesor
+
+php artisan make:model -mc materia
+php artisan make:model -mc alumno
+php artisan make:model -mc profesor
+php artisan make:model -mc paseLista
+
+php artisan migrate
+
+composer require laravel/ui
+
+php artisan ui vue --auth
+
+npm install
+
+npm run build
+
+php artisan serve
+
+npm run dev
+
+
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+termius -> Set your data encryption passphrase:
+    IngenieroAlexanderMendezSanchez
+
+
+
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
+contraseña
+roJasMendez2023
+
+
+
+git remote add apiLaravel https://github.com/alexander01576/apiLaravelMovilMaterias.git
